@@ -1,0 +1,58 @@
+{
+  "name": "maldives--be",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon ./src/app.js",
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "lint": "eslint"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/nyshthefantastic/ivys-proj-be.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/nyshthefantastic/ivys-proj-be/issues"
+  },
+  "homepage": "https://github.com/nyshthefantastic/ivys-proj-be#readme",
+  "dependencies": {
+    "@hapi/joi": "^16.1.8",
+    "aws-sdk": "^2.771.0",
+    "base64-img": "^1.0.4",
+    "bcryptjs": "^2.4.3",
+    "biguint-format": "^1.0.2",
+    "dotenv": "^8.2.0",
+    "email-templates": "^7.0.5",
+    "eslint-config-node-style-guide": "^3.0.0",
+    "express": "^4.17.1",
+    "express-fileupload": "^1.1.7-alpha.3",
+    "flake-idgen": "^1.4.0",
+    "is-base64": "^1.1.0",
+    "jsonwebtoken": "^8.5.1",
+    "lodash": "^4.17.21",
+    "moment": "^2.26.0",
+    "mongodb": "^3.4.1",
+    "mongoose": "^5.8.3",
+    "multer": "^1.4.2",
+    "multer-s3": "^2.9.0",
+    "mysql": "^2.18.1",
+    "mysql2": "^2.2.5",
+    "nanoid": "^3.1.16",
+    "nodemailer": "^6.4.10",
+    "nodemon": "^2.0.2",
+    "path": "^0.12.7",
+    "pug": "^3.0.0",
+    "sequelize": "^6.5.0",
+    "sequelize-cli": "^6.4.1",
+    "uuid": "^8.3.1"
+  },
+  "devDependencies": {
+    "prettier": "2.0.5",
+    "eslint": "^7.1.0",
+    "eslint-config-google": "^0.14.0"
+  }
+}
